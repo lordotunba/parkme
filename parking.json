@@ -1,0 +1,1766 @@
+{
+  "meta": {
+    "status": {
+      "code": 0,
+      "message": "Request was successful."
+    },
+    "diagnostics": {
+      "requestId": "TE_f8c83cec-9990-4b44-87f2-0dd46913c09f"
+    }
+  },
+  "data": {
+    "parkingResponse": {
+      "parkingLocations": [{
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606572",
+            "longitude": "-122.331921"
+          },
+          "name": "",
+          "address": {
+            "street": "5th Ave Between Madison St And Spring St (SW side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98164",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "12",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.606572136615,-122.33192075837 47.607185754878,-122.33248243235"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:11",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 5,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606259",
+            "longitude": "-122.331406"
+          },
+          "name": "",
+          "address": {
+            "street": "5th Ave Between Marion St And Madison St (NE side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "20",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.6059340052,-122.331108957 47.6065848298,-122.331703653"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606268",
+            "longitude": "-122.331373"
+          },
+          "name": "Chinook Parking",
+          "address": {
+            "street": "910 5th Ave",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "(206) 447-3352",
+        "hours": ["Mon-Fri 6:30am-7pm"],
+        "info": "Tax included in all rates.\nAfter 7pm late release fee: $30.00.",
+        "paymentTypes": ["COINS", "BILLS", "CARDS", "ATTENDANT"],
+        "features": ["EV_CHARGING", "PARKING_LOT", "COVERED"],
+        "restrictions": "",
+        "height": "213",
+        "distance": "21",
+        "geometries": [{
+          "type": "polygon",
+          "value": "47.606546424721955,-122.3315942287445 47.60671279667075,-122.33118653297424 47.606434304197116,-122.33093708753586 47.6062679313625,-122.3313421010971 47.606546424721955,-122.3315942287445"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "7",
+              "duration": "60",
+              "text": "$7.00"
+            }, {
+              "amount": "9",
+              "duration": "120",
+              "text": "$9.00"
+            }, {
+              "amount": "15",
+              "duration": "180",
+              "text": "$15.00"
+            }, {
+              "amount": "25",
+              "duration": "300",
+              "text": "$25.00"
+            }, {
+              "amount": "35",
+              "duration": "720",
+              "text": "$35.00"
+            }, {
+              "amount": "7",
+              "durationDescription": "Evening",
+              "text": "$7.00"
+            }, {
+              "amount": "240",
+              "duration": "40320",
+              "text": "$240.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY"
+              ],
+              "from": "0630",
+              "to": "1900"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606316",
+            "longitude": "-122.332182"
+          },
+          "name": "",
+          "address": {
+            "street": "901 5th Ave",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98164",
+            "countryCode": "US"
+          }
+        },
+        "phone": "(206) 622-3813",
+        "hours": ["Mon-Fri 7am-7pm", "Sat 8am-5pm", "Sun 11am-7pm"],
+        "info": "Vehicle types: automobile, motorcycle, pickup truck, SUV.\n\nMotorcycle: 10 hours max.\nZipcars available.\n\nMonthly rate: $330.00 - $400.00.",
+        "paymentTypes": ["COINS", "BILLS"],
+        "features": ["MOTORCYCLE", "PARKING_LOT", "COVERED"],
+        "restrictions": "",
+        "height": "203",
+        "distance": "23",
+        "geometries": [{
+          "type": "polygon",
+          "value": "47.606097941180586,-122.33268857002258 47.606448771375106,-122.331862449646 47.60588816530095,-122.3313421010971 47.60551924705811,-122.33217895030975 47.606097941180586,-122.33268857002258"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "6",
+              "duration": "30",
+              "text": "$6.00"
+            }, {
+              "amount": "10",
+              "duration": "60",
+              "text": "$10.00"
+            }, {
+              "amount": "13",
+              "duration": "120",
+              "text": "$13.00"
+            }, {
+              "amount": "26",
+              "duration": "300",
+              "text": "$26.00"
+            }, {
+              "amount": "35",
+              "durationDescription": "24 hours",
+              "text": "$35.00"
+            }, {
+              "amount": "16",
+              "durationDescription": "Early bird",
+              "text": "$16.00"
+            }, {
+              "amount": "5",
+              "durationDescription": "Evening",
+              "text": "$5.00"
+            }, {
+              "amount": "5",
+              "durationDescription": "Motorcycle",
+              "text": "$5.00"
+            }, {
+              "amount": "6",
+              "durationDescription": "Bank Holiday",
+              "text": "$6.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY"
+              ],
+              "from": "0700",
+              "to": "1900"
+            }]
+          }, {
+            "costs": [{
+              "amount": "6",
+              "durationDescription": "Flat rate",
+              "text": "$6.00"
+            }, {
+              "amount": "5",
+              "durationDescription": "Motorcycle",
+              "text": "$5.00"
+            }],
+            "times": [{
+              "days": ["SATURDAY"],
+              "from": "0800",
+              "to": "1700"
+            }, {
+              "days": ["SUNDAY"],
+              "from": "1100",
+              "to": "1900"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606732",
+            "longitude": "-122.331198"
+          },
+          "name": "",
+          "address": {
+            "street": "Madison St Between 5th Ave And 6th Ave (SE side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "31",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.6065337296,-122.331671652 47.6069302906,-122.330723917"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:11",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 7,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606743",
+            "longitude": "-122.331102"
+          },
+          "name": "Renaissance Seattle Hotel",
+          "address": {
+            "street": "515 Madison St",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "(206) 583-0300",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "Overnight guests:\nself parking - $34.00 (plus tax);\nvalet parking - $42.00 (plus tax).\n\nOnsite parking for vehicles 6'1\" and under. NO oversize vehicle parking available.",
+        "paymentTypes": ["COINS", "BILLS", "CARDS"],
+        "features": ["VALET", "PARKING_LOT", "UNDERGROUND"],
+        "restrictions": "",
+        "height": "187",
+        "distance": "35",
+        "geometries": [],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "7",
+              "duration": "30",
+              "text": "$7.00"
+            }, {
+              "amount": "10",
+              "duration": "60",
+              "text": "$10.00"
+            }, {
+              "amount": "12",
+              "duration": "120",
+              "text": "$12.00"
+            }, {
+              "amount": "15",
+              "duration": "180",
+              "text": "$15.00"
+            }, {
+              "amount": "18",
+              "duration": "240",
+              "text": "$18.00"
+            }, {
+              "amount": "20",
+              "duration": "420",
+              "text": "$20.00"
+            }, {
+              "amount": "24",
+              "duration": "720",
+              "text": "$24.00"
+            }, {
+              "amount": "40",
+              "durationDescription": "24 hours",
+              "text": "$40.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY", "SUNDAY"
+              ],
+              "from": "0000",
+              "to": "2400"
+            }]
+          }, {
+            "costs": [{
+              "amount": "9",
+              "duration": "30",
+              "text": "$9.00"
+            }, {
+              "amount": "12",
+              "duration": "60",
+              "text": "$12.00"
+            }, {
+              "amount": "14",
+              "duration": "120",
+              "text": "$14.00"
+            }, {
+              "amount": "17",
+              "duration": "180",
+              "text": "$17.00"
+            }, {
+              "amount": "20",
+              "duration": "240",
+              "text": "$20.00"
+            }, {
+              "amount": "24",
+              "duration": "420",
+              "text": "$24.00"
+            }, {
+              "amount": "28",
+              "duration": "720",
+              "text": "$28.00"
+            }, {
+              "amount": "50",
+              "durationDescription": "24 hours",
+              "text": "$50.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY", "SUNDAY"
+              ],
+              "from": "0000",
+              "to": "2400"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.605920",
+            "longitude": "-122.331113"
+          },
+          "name": "",
+          "address": {
+            "street": "Marion St Between 5th Ave And 6th Ave (NW side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "47",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.605920485045,-122.33111349983 47.606344721764,-122.33009922446"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:11",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 5,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.605823",
+            "longitude": "-122.331022"
+          },
+          "name": "",
+          "address": {
+            "street": "Marion St Between 5th Ave And 6th Ave (SE side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "54",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.605823277469,-122.3310222253 47.606247513375,-122.33000795108"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:11",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 10,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606073",
+            "longitude": "-122.332783"
+          },
+          "name": "",
+          "address": {
+            "street": "Madison St Between 4th Ave And 5th Ave (SE side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "55",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.606072724653,-122.33278348248 47.606474283909,-122.33182384335"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:11",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 7,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606176",
+            "longitude": "-122.332866"
+          },
+          "name": "",
+          "address": {
+            "street": "4th Ave Between Madison St And Spring St (NE side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98164",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "56",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.606176497126,-122.33286627502 47.606792323362,-122.3334298937"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:11",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 4,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606972",
+            "longitude": "-122.332888"
+          },
+          "name": "Seattle Central Library",
+          "address": {
+            "street": "1000 4th Ave",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98164",
+            "countryCode": "US"
+          }
+        },
+        "phone": "(206) 386-4152",
+        "hours": ["Mon-Fri 7am-9pm", "Sat 9am-7pm", "Sun 10am-7pm"],
+        "info": "",
+        "paymentTypes": ["COINS", "BILLS", "CARDS"],
+        "features": ["PARKING_LOT", "UNDERGROUND", "FREE"],
+        "restrictions": "",
+        "height": "198",
+        "distance": "65",
+        "geometries": [],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "0",
+              "duration": "20",
+              "text": "$0.00"
+            }, {
+              "amount": "3",
+              "duration": "40",
+              "text": "$3.00"
+            }, {
+              "amount": "7",
+              "duration": "60",
+              "text": "$7.00"
+            }, {
+              "amount": "11",
+              "duration": "120",
+              "text": "$11.00"
+            }, {
+              "amount": "15",
+              "duration": "180",
+              "text": "$15.00"
+            }, {
+              "amount": "20",
+              "duration": "240",
+              "text": "$20.00"
+            }, {
+              "amount": "25",
+              "duration": "300",
+              "text": "$25.00"
+            }, {
+              "amount": "30",
+              "durationDescription": "24 hours",
+              "text": "$30.00"
+            }, {
+              "amount": "14",
+              "durationDescription": "Early bird",
+              "text": "$14.00"
+            }, {
+              "amount": "250",
+              "duration": "40320",
+              "text": "$250.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY"
+              ],
+              "from": "0700",
+              "to": "1700"
+            }]
+          }, {
+            "costs": [{
+              "amount": "0",
+              "duration": "20",
+              "text": "$0.00"
+            }, {
+              "amount": "3",
+              "duration": "40",
+              "text": "$3.00"
+            }, {
+              "amount": "5",
+              "durationDescription": "Maximum",
+              "text": "$5.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY"
+              ],
+              "from": "1700",
+              "to": "2100"
+            }]
+          }, {
+            "costs": [{
+              "amount": "0",
+              "duration": "20",
+              "text": "$0.00"
+            }, {
+              "amount": "3",
+              "duration": "40",
+              "text": "$3.00"
+            }, {
+              "amount": "6",
+              "durationDescription": "Maximum",
+              "text": "$6.00"
+            }],
+            "times": [{
+              "days": ["SATURDAY"],
+              "from": "0900",
+              "to": "1900"
+            }, {
+              "days": ["SUNDAY"],
+              "from": "1000",
+              "to": "1900"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606083",
+            "longitude": "-122.333081"
+          },
+          "name": "",
+          "address": {
+            "street": "4th Ave Between Madison St And Spring St (SW side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98154",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "68",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.60608327508,-122.33308130263 47.606703747962,-122.33364917652"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:11",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 8,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.607342",
+            "longitude": "-122.332425"
+          },
+          "name": "",
+          "address": {
+            "street": "Spring St Between 5th Ave And 6th Ave (NW side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98101",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "69",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.607341657092,-122.33242527689 47.607750840195,-122.33144698114"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:10",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 9,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.605459",
+            "longitude": "-122.332215"
+          },
+          "name": "",
+          "address": {
+            "street": "Marion St Between 4th Ave And 5th Ave (NW side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98164",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "72",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.605459181326,-122.33221541449 47.605885236539,-122.33119776499"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606299",
+            "longitude": "-122.330179"
+          },
+          "name": "",
+          "address": {
+            "street": "6th Ave Between Marion St And Madison St (SW side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "73",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.606298708008,-122.33017855204 47.606903913981,-122.33072906053"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.605546",
+            "longitude": "-122.330763"
+          },
+          "name": "",
+          "address": {
+            "street": "5th Ave Between Columbia St And Marion St (NE side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "77",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.6052204249,-122.330465781 47.6058707291,-122.331060658"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:11",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 9,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606783",
+            "longitude": "-122.333445"
+          },
+          "name": "",
+          "address": {
+            "street": "Spring St Between 4th Ave And 5th Ave (SE side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98161",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "83",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.606782570296,-122.33344502242 47.607177048633,-122.33250276295"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.607564",
+            "longitude": "-122.332587"
+          },
+          "name": "Hotel Vintage Park",
+          "address": {
+            "street": "1100 5th Ave",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98101",
+            "countryCode": "US"
+          }
+        },
+        "phone": "(206) 624-8000",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "Tax not included.\nIn and out privileges available.\nHybrid parkers save 50% on parking.",
+        "paymentTypes": ["COINS", "BILLS", "CARDS"],
+        "features": ["VALET", "PARKING_LOT"],
+        "restrictions": "",
+        "height": "365",
+        "distance": "87",
+        "geometries": [{
+          "type": "polygon",
+          "value": "47.60785717931175,-122.33225670552258 47.607711754298,-122.33212804662708 47.60754452089799,-122.33254084540368 47.60768813759434,-122.33267023313522 47.60785717931175,-122.33225670552258"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "42",
+              "durationDescription": "24 hours",
+              "text": "$42.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY", "SUNDAY"
+              ],
+              "from": "0000",
+              "to": "2400"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606895",
+            "longitude": "-122.333529"
+          },
+          "name": "",
+          "address": {
+            "street": "4th Ave Between Spring St And Seneca St (NE side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98101",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "89",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.606895406796,-122.33352885617 47.607499852574,-122.33408054712"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.606800",
+            "longitude": "-122.333718"
+          },
+          "name": "",
+          "address": {
+            "street": "4th Ave Between Spring St And Seneca St (SW side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98154",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "96",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.606800265054,-122.3337183215 47.607404709914,-122.33427001364"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.605978",
+            "longitude": "-122.333676"
+          },
+          "name": "Safeco Plaza",
+          "address": {
+            "street": "1001 4th Ave",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98154",
+            "countryCode": "US"
+          }
+        },
+        "phone": "(206) 622-0234",
+        "hours": ["Mon-Fri 6am-8:30pm"],
+        "info": "Early Bird: 5 hours minimum, 10 hours maximum.\nTax included in all rates.",
+        "paymentTypes": ["COINS", "BILLS", "CARDS"],
+        "features": ["PARKING_LOT", "COVERED"],
+        "restrictions": "",
+        "height": "182",
+        "distance": "96",
+        "geometries": [{
+          "type": "polygon",
+          "value": "47.60640356143059,-122.33373194932938 47.60609432436219,-122.33344629406929 47.605871915833674,-122.33398486871721 47.60618384054369,-122.33426705002785 47.60640356143059,-122.33373194932938"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "6",
+              "duration": "20",
+              "text": "$6.00"
+            }, {
+              "amount": "9",
+              "duration": "40",
+              "text": "$9.00"
+            }, {
+              "amount": "12",
+              "duration": "60",
+              "text": "$12.00"
+            }, {
+              "amount": "14",
+              "duration": "80",
+              "text": "$14.00"
+            }, {
+              "amount": "17",
+              "duration": "100",
+              "text": "$17.00"
+            }, {
+              "amount": "19",
+              "duration": "120",
+              "text": "$19.00"
+            }, {
+              "amount": "22",
+              "duration": "180",
+              "text": "$22.00"
+            }, {
+              "amount": "24",
+              "duration": "240",
+              "text": "$24.00"
+            }, {
+              "amount": "26",
+              "duration": "360",
+              "text": "$26.00"
+            }, {
+              "amount": "29",
+              "duration": "480",
+              "text": "$29.00"
+            }, {
+              "amount": "31",
+              "duration": "720",
+              "text": "$31.00"
+            }, {
+              "amount": "33",
+              "durationDescription": "24 hours",
+              "text": "$33.00"
+            }, {
+              "amount": "15",
+              "durationDescription": "Early bird",
+              "text": "$15.00"
+            }, {
+              "amount": "8",
+              "durationDescription": "Evening",
+              "text": "$8.00"
+            }, {
+              "amount": "450",
+              "durationDescription": "Month (reserved)",
+              "text": "$450.00"
+            }, {
+              "amount": "333.67",
+              "durationDescription": "Month (unreserved)",
+              "text": "$333.67"
+            }, {
+              "amount": "8",
+              "durationDescription": "Motorcycle",
+              "text": "$8.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY"
+              ],
+              "from": "0600",
+              "to": "2030"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.605726",
+            "longitude": "-122.333517"
+          },
+          "name": "Fourth and Madison Building",
+          "address": {
+            "street": "925 4th Ave",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "(206) 262-4100",
+        "hours": ["Mon-Fri 5am-9pm", "Sat 7am-7pm"],
+        "info": "Weekend rate (midnight Saturday until midnight Sunday) - $9.00.\nLost tickets (no in and outs) - $33.00.",
+        "paymentTypes": ["COINS", "BILLS", "CARDS"],
+        "features": ["MOTORCYCLE", "PARKING_LOT", "UNDERGROUND"],
+        "restrictions": "",
+        "height": "243",
+        "distance": "97",
+        "geometries": [],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "6",
+              "duration": "20",
+              "text": "$6.00"
+            }, {
+              "amount": "9",
+              "duration": "40",
+              "text": "$9.00"
+            }, {
+              "amount": "12",
+              "duration": "60",
+              "text": "$12.00"
+            }, {
+              "amount": "14",
+              "duration": "80",
+              "text": "$14.00"
+            }, {
+              "amount": "17",
+              "duration": "100",
+              "text": "$17.00"
+            }, {
+              "amount": "19",
+              "duration": "120",
+              "text": "$19.00"
+            }, {
+              "amount": "21",
+              "duration": "180",
+              "text": "$21.00"
+            }, {
+              "amount": "24",
+              "duration": "240",
+              "text": "$24.00"
+            }, {
+              "amount": "26",
+              "duration": "360",
+              "text": "$26.00"
+            }, {
+              "amount": "29",
+              "duration": "480",
+              "text": "$29.00"
+            }, {
+              "amount": "31",
+              "duration": "720",
+              "text": "$31.00"
+            }, {
+              "amount": "33",
+              "durationDescription": "24 hours",
+              "text": "$33.00"
+            }, {
+              "amount": "9",
+              "durationDescription": "Flat rate",
+              "text": "$9.00"
+            }, {
+              "amount": "9",
+              "durationDescription": "Evening",
+              "text": "$9.00"
+            }, {
+              "amount": "415",
+              "duration": "40320",
+              "text": "$415.00"
+            }, {
+              "amount": "7",
+              "durationDescription": "Motorcycle",
+              "text": "$7.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY"
+              ],
+              "from": "0500",
+              "to": "2100"
+            }, {
+              "days": ["SATURDAY"],
+              "from": "0700",
+              "to": "1900"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.605211",
+            "longitude": "-122.330453"
+          },
+          "name": "",
+          "address": {
+            "street": "Columbia St Between 5th Ave And 6th Ave (NW side)",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "",
+        "hours": ["Mon-Sun 24 hours"],
+        "info": "",
+        "paymentTypes": ["COINS", "CARDS"],
+        "features": ["PARKING_LOT", "FREE"],
+        "restrictions": "",
+        "height": "999",
+        "distance": "105",
+        "geometries": [{
+          "type": "polyline",
+          "value": "47.605211081566,-122.33045260375 47.605609525579,-122.32949967332"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "4",
+              "duration": "60",
+              "text": "$4.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY"
+              ],
+              "from": "0800",
+              "to": "1800"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {
+          "indicator": "",
+          "lastUpdateTime": "11:11",
+          "state": "NOT_FULL",
+          "availableParkingSpaces": 0,
+          "totalParkingSpaces": 7,
+          "trend": "UNKNOWN"
+        }
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.604954",
+            "longitude": "-122.332062"
+          },
+          "name": "Jerry's Garage",
+          "address": {
+            "street": "801 4th Ave",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "(206) 682-8989",
+        "hours": ["Mon-Fri 7am-6pm", "Sat 8am-1pm"],
+        "info": "All rates do not include taxes.\n\nPrivate stall: $260.00/month.",
+        "paymentTypes": ["COINS", "BILLS", "CARDS", "ATTENDANT"],
+        "features": ["PARKING_LOT"],
+        "restrictions": "",
+        "height": "365",
+        "distance": "105",
+        "geometries": [{
+          "type": "polygon",
+          "value": "47.604688267269545,-122.33182489871979 47.604527314271905,-122.33221650123596 47.60481033803302,-122.33246728777885 47.60496948171172,-122.33208373188972 47.604688267269545,-122.33182489871979"
+        }],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "10",
+              "duration": "60",
+              "text": "$10.00"
+            }, {
+              "amount": "12",
+              "duration": "120",
+              "text": "$12.00"
+            }, {
+              "amount": "16",
+              "duration": "180",
+              "text": "$16.00"
+            }, {
+              "amount": "18",
+              "duration": "240",
+              "text": "$18.00"
+            }, {
+              "amount": "20",
+              "duration": "720",
+              "text": "$20.00"
+            }, {
+              "amount": "30",
+              "durationDescription": "Overnight",
+              "text": "$30.00"
+            }, {
+              "amount": "202.5",
+              "duration": "40320",
+              "text": "$202.50"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY"
+              ],
+              "from": "0700",
+              "to": "1800"
+            }, {
+              "days": ["SATURDAY"],
+              "from": "0800",
+              "to": "1300"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }, {
+        "location": {
+          "matchData": {},
+          "geoPosition": {
+            "latitude": "47.605385",
+            "longitude": "-122.330122"
+          },
+          "name": "Bank of America - Fifth Avenue Plaza",
+          "address": {
+            "street": "800 5th Ave",
+            "city": "Seattle",
+            "state": "WA",
+            "postalCode": "98104",
+            "countryCode": "US"
+          }
+        },
+        "phone": "(206) 839-8442",
+        "hours": ["Mon-Sun 5:30am-12am"],
+        "info": "Early bird rate: in by 9:00am, 6 hours minimum, 10 hours maximum.\nCarpool monthly rate: $245.00.",
+        "paymentTypes": ["COINS", "BILLS", "CARDS"],
+        "features": ["EV_CHARGING", "PARKING_LOT", "UNDERGROUND"],
+        "restrictions": "",
+        "height": "187",
+        "distance": "105",
+        "geometries": [],
+        "priceSchema": {
+          "currency": "$",
+          "currencyCode": "USD",
+          "prices": [{
+            "costs": [{
+              "amount": "7",
+              "duration": "20",
+              "text": "$7.00"
+            }, {
+              "amount": "10",
+              "duration": "40",
+              "text": "$10.00"
+            }, {
+              "amount": "12",
+              "duration": "60",
+              "text": "$12.00"
+            }, {
+              "amount": "14",
+              "duration": "80",
+              "text": "$14.00"
+            }, {
+              "amount": "17",
+              "duration": "100",
+              "text": "$17.00"
+            }, {
+              "amount": "19",
+              "duration": "120",
+              "text": "$19.00"
+            }, {
+              "amount": "21",
+              "duration": "180",
+              "text": "$21.00"
+            }, {
+              "amount": "23",
+              "duration": "240",
+              "text": "$23.00"
+            }, {
+              "amount": "27",
+              "duration": "360",
+              "text": "$27.00"
+            }, {
+              "amount": "28",
+              "duration": "480",
+              "text": "$28.00"
+            }, {
+              "amount": "34",
+              "durationDescription": "24 hours",
+              "text": "$34.00"
+            }, {
+              "amount": "17",
+              "durationDescription": "Early bird",
+              "text": "$17.00"
+            }, {
+              "amount": "7",
+              "durationDescription": "Evening",
+              "text": "$7.00"
+            }, {
+              "amount": "430",
+              "durationDescription": "Month (reserved)",
+              "text": "$430.00"
+            }, {
+              "amount": "350",
+              "durationDescription": "Month (unreserved)",
+              "text": "$350.00"
+            }],
+            "times": [{
+              "days": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY",
+                "FRIDAY", "SATURDAY", "SUNDAY"
+              ],
+              "from": "0530",
+              "to": "2400"
+            }]
+          }]
+        },
+        "calculatedPrice": {
+          "items": []
+        },
+        "realTime": {}
+      }],
+      "pageMetaData": {
+        "pageNumber": 1,
+        "pageSize": 25,
+        "numPages": 2,
+        "total": 50
+      }
+    }
+  }
+}
